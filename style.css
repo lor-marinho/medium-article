@@ -1,0 +1,72 @@
+body {
+  color: #222725;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.banner{
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  padding: 120px 0;
+  margin: 0 auto; 
+  color: white;
+  width: 1000px;
+}
+
+.banner p {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 30px;
+}
+.header {
+  font-family: 'Roboto', sans-serif;
+  padding: 15px;  
+}
+
+article {
+    width: 700px;   /* This sets the width */
+    margin: 0 auto; 
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 38px;
+  margin: 0 auto; 
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 27px;
+}
+
+p {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+a {
+  background-color: #ABC4AB;
+  font-style: italic;
+  font-size: 27px;
+}
+
+a:hover {
+  background-color: #727D71; 
+}
+
+@media(max-width: 992px) {
+  article {
+    width: 700px;
+  }
+}
+
+@media(max-width:768px) {
+  article {
+    width: 500px;
+  }
+}
+
+@media(max-width: 576px {
+  article {
+    width: 300px;
+  }
+}
